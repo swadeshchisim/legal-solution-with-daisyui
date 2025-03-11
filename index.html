@@ -28,12 +28,17 @@
     <!-- Header Area Starts Here -->
      <header class="container mx-auto">
         <!-- nav area -->
-         <nav class="font-poppins py-12">
+         <nav class="font-poppins py-12 px-8 md:pe-0">
             <div class="navbar bg-base-100 p-0">
-                <div class="navbar-start">
+                <div class="navbar justify-between md:navbar-start ">
+                  <!-- Logo Area -->
+                  <a href="#">
+                    <img class="w-3/4 md:w-full" src="./images/logo2.png" alt="">
+                  </a>
+                  <!-- Dropdown Area -->
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                     </div>
                     <ul
                       tabindex="0"
@@ -45,9 +50,6 @@
                       <li><a class="text-base" href="#">Contact Us</a></li>
                     </ul>
                   </div>
-                  <a class="text-xl">
-                    <img src="./images/logo2.png" alt="">
-                  </a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-gray-500">
@@ -58,8 +60,8 @@
                     <li><a class="text-base" href="#">Contact Us<i class="fa-solid fa-angle-right"></i></a></li>
                   </ul>
                 </div>
-                <div class="navbar-end">
-                  <a class="btn btn-xl bg-yellow-700 text-white text-lg font-semibold">Free Consultation</a>
+                <div class="navbar-end hidden md:inline-block">
+                  <a class="btn md:btn-xl bg-yellow-700 text-white md:text-lg md:font-semibold flex justify-self-end">Free Consultation</a>
                 </div>
               </div>
          </nav>
